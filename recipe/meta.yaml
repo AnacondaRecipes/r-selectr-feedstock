@@ -10,8 +10,8 @@ package:
 source:
   fn: selectr_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/selectr_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/selectr/selectr_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/selectr_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/selectr/selectr_{{ version }}.tar.gz
   sha256: db4f7ceea4b522a54c3ae7709787b0b7fcf389c5d945c5a278e3625388218949
 
 
